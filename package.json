@@ -1,0 +1,17 @@
+{
+  "name": "multiTenant-context-decouple",
+  "version": "1.0.0",
+  "description": "A robust Node.js solution enabling seamless decoupling of tenant IDs and other key-value data in multitenant service architectures, leveraging context for improved efficiency and flexibility.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nanoid": "^4.0.1",
+    "uuid": "^9.0.0"
+  }
+}
